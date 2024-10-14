@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <h1>Enter your name:</h1>
       <input type="text" onChange={(e) => handleOnchange(e)}></input>
-      <h1>{userInput !== "" && `Hello ${userInput}!`}</h1>
+      <p>{userInput !== "" && `Hello ${userInput}!`}</p>
     </div>
   );
 };
